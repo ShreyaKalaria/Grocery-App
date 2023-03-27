@@ -1,6 +1,21 @@
 version = 1
 
 [[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
+
+[[analyzers]]
 name = "python"
 
   [analyzers.meta]
@@ -8,6 +23,3 @@ name = "python"
 
 [[analyzers]]
 name = "php"
-
-[[analyzers]]
-name = "javascript"
